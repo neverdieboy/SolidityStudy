@@ -2,7 +2,7 @@ Project for understanding basics of Solidity, structures, types and functions.
 
 Project represents simple "StockMarket", where "Customers" can swap "Silver Dooblons" for "Copper Dooblons" and vice versa.
 
-How it works:
+How it works:\n
   -> StockMarkets are created in constructor;
   -> Customers can be created via createCustomer(name); Note customer ID for future usage.
   -> Customer wallet is funded using fundCustomerWallet(customerID, Silver, 100);
