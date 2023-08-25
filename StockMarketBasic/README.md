@@ -3,8 +3,8 @@ Project for understanding basics of Solidity, structures, types and functions.
 Project represents simple "StockMarket", where "Customers" can swap "Silver Dooblons" for "Copper Dooblons" and vice versa.
 
 How it works:
-  \n-> StockMarkets are created in constructor;
-  \n-> Customers can be created via createCustomer(name); Note customer ID for future usage.
+  -> StockMarkets are created in constructor;<br />
+  -> Customers can be created via createCustomer(name); Note customer ID for future usage.<br />
   -> Customer wallet is funded using fundCustomerWallet(customerID, Silver, 100);
   -> Customer must be added to the market before placing offers. Done via customerJoinStockMarket(StockMarket name, customerID);
   -> Offer is placed using placeOffer(StockMarket name, customerID, Silver, Copper, 10); Note offer ID for future usage.
