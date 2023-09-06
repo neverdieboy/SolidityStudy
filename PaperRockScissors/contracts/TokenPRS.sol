@@ -9,6 +9,7 @@ contract TokenPRS is ERC20 {
         0xbf8c1fEF94Cb4f1303D2f0e4C994B8bd979270C6,
         0x8BDbd2760c5386e09210FDca270380bA2A2db41d,
         0x53ec7446F3C7F205e7b3B17EF07182DbC51E761d
+        // PASTE HERE TOKEN HOLDERS
     ];
 
     constructor(uint initialSupply) ERC20("PaperRockScissors", "PRS") {
